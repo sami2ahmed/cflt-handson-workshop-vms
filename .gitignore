@@ -1,18 +1,32 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Created by venv; see https://docs.python.org/3/library/venv.html
+*
+nothing.md
+librdkafka
+get-pip.py
+lib
 
-# Other files and folders
-.settings/
+#  Local .terraform directories
+**/.terraform/*
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# .tfstate files
+*.tfstate
+*.tfstate.*
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# .tfvars files
+*.tfvars
+
+# Other
+workshop.yaml
+**/.terraform_staging/*
+.DS_Store
+*.log
+bin
+
+# Enrionment specific configuration files
+.env
+TODO
+workshop_details.out
+workshops/*
+.workshop
+.venv
+pyenv.cfg
