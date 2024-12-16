@@ -44,8 +44,8 @@ After completing this setup, you will have configured virtual machines in AWS fo
 
     # The workshop cloud provider & VM configuration, workshop leader you need to grab your unique access_key and secret_key from your AWS profile. The below are just example values (not real key/secret). 
     cloud_provider: aws
-    access_key: AKIA4CEZVBNWXRHXHBPXQ
-    secret_key: VB+oWWYy2Lg9nzuadj5hsiA1FXw9iPGzVnL3k+XY   
+    access_key: XXXXXXXXXXXXXXXXXXXXXX
+    secret_key: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     profile: default
     region: ap-southeast-1
     # Availability zones
