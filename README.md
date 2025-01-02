@@ -75,10 +75,8 @@ After the deployment is complete, verify the deployment by checking on the VMs i
 ## Teardown and Conclusion
 
 Assuming you were able to successfully ssh into one of the VMs, you have successfully setup your virtual machines for a workshop. If you encounter any issues, please reach out to Sami Ahmed (SG timezone) in Slack.
-
-    Use the following command to destroy the workshop:
-
-    ```sh
+Use the following command to destroy the workshop:
+    ```
     python3 workshop-destroy.py --dir myworkshop
     ```
 
