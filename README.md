@@ -61,8 +61,7 @@ After completing this setup, you will have configured virtual machines in AWS fo
 
 Note that this will kick off a Terraform script and you will need to confirm with a `yes` to proceed (review all the AWS resources that will be spun up). If everything goes to plan you should see some output like: 
     ```
-     Enter a value: yes
-
+    Enter a value: yes
     module.workshop-core.random_string.random_string: Creating...
     module.workshop-core.random_string.random_string: Creation complete after 0s [id=xxxxxx]
     ```
