@@ -27,22 +27,15 @@ After completing this setup, you will have configured virtual machines in AWS fo
 3. **Update the YAML Fields**
 
     Update the following fields in the `workshop-aws.yaml` file with your specific values. Use the provided examples as a reference.
-    **please note** if you are also working in highly regulated industry that does not allow developers to SSH into VMs, then I highly suggest not editing the bootstrap VM script i.e. `cflt-handson-workshop-vms/core/terraform/common/bootstrap_vm.tpl` and sticking with this AWS ami: `ami-0950bf7d28f290092`. I encountered lots of trial and error with the sshwifty tool to get the confluent-python client working appropriately with different amis etc. 
+    **please note** if you are also working in highly regulated industry that does not allow developers to SSH into VMs, then I highly suggest not editing the bootstrap VM script i.e. `cflt-handson-workshop-vms/core/terraform/common/bootstrap_vm.tpl` and sticking with this AWS ami: `ami-0950bf7d28f290092`. I encountered lots of trial and error with the sshwifty tool to get the confluent-python client working appropriately with different amis etc.  The workshop cloud provider & VM configuration, workshop leader you need to grab your unique access_key and secret_key from your AWS profile. The below are just example values (not real key/secret). 
 
 
     ```yaml
   name: 
- 
-  # The number of people attending the workshop ssh password
-  participant_count: 7
-  participant_password: mycoolpassword
-
-  #
-  # workshop-core
-  #
+  participant_count: 
+  participant_password: 
+  workshop-core
   core:
-
-    # The workshop cloud provider & VM configuration, workshop leader you need to grab your unique access_key and secret_key from your AWS profile. The below are just example values (not real key/secret). 
     cloud_provider: aws
     access_key: xxxx
     secret_key: xxxx
